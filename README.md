@@ -1,53 +1,45 @@
-# A Resume Segregator Gen AI Based Automation for Enhanced HR Process Efficiency
-## Project Overview
-This project implements an **AI-driven HR automation system** designed to streamline and optimize the resume screening and candidate evaluation process. The system automates the analysis of resumes, extracts relevant candidate information, evaluates profiles using predefined criteria, and assists HR teams in identifying suitable candidates efficiently.
+## 📄 A Resume Segregator Gen AI Based Automation for Enhanced HR Process Efficiency
+The rapid increase in job applications has made manual resume screening inefficient and inconsistent for Human Resource (HR) departments. Traditional hiring workflows are time-consuming and often subject to human bias. This project, **Resume Segregator**, presents a **Generative AI–based HR automation framework** designed to improve recruitment efficiency and decision quality.
 
-The solution focuses on reducing manual effort, improving screening accuracy, and enabling scalable recruitment workflows through the use of **Generative AI and automation techniques**.
-
----
-
-## Problem Statement
-Traditional resume screening is time-consuming, manual, and prone to inconsistencies. HR teams often need to process a large volume of resumes, making it difficult to ensure fair and efficient evaluation. This project addresses these challenges by providing an automated system capable of analyzing resumes and supporting data-driven hiring decisions.
+The system leverages **Large Language Models (LLMs)**, specifically **Groq’s LLaMA-3**, to analyze resume content and evaluate candidates based on skills, experience, and relevance to job requirements. Resumes are processed using **Python-based libraries**, including **PyPDF2** for document parsing and **Streamlit** for building an interactive user interface.
 
 ---
 
-## System Architecture
-The system follows a modular architecture consisting of:
-- Resume ingestion and preprocessing
-- AI-based resume analysis and scoring
-- Candidate classification and storage
-- Optional communication and reporting modules
-
-Each module operates independently, ensuring maintainability and extensibility.
+## 🧩 System Functionality
+- Automated resume ingestion and preprocessing  
+- AI-driven resume analysis and candidate scoring  
+- Classification of candidates into **GOOD** and **BAD** categories  
+- Automated interview invitation workflow for shortlisted candidates  
+- Centralized result storage for HR review  
 
 ---
 
-## Processing Pipeline
-1. Resume files are collected from a predefined input source.
-2. Documents are preprocessed to extract readable textual content.
-3. A Generative AI model analyzes resumes for skills, experience, and relevance.
-4. Candidate profiles are scored based on evaluation criteria.
-5. Results are categorized and stored for HR review.
-6. Selected candidates can be flagged for further processing or communication.
+## ⚙️ Technical Highlights
+- Uses **LLMs** for contextual resume understanding  
+- Reduces manual screening effort and human bias  
+- Ensures consistent and repeatable candidate evaluation  
+- Designed for scalability and modular extension  
 
 ---
 
-## Key Features
-- Automated resume screening and analysis  
-- AI-based candidate evaluation and scoring  
-- Structured data extraction from resumes  
-- Reduced manual intervention in HR workflows  
-- Scalable and reusable processing pipeline  
+## 🧪 Evaluation Summary
+Experimental evaluation demonstrates significant improvements in:
+- Resume screening speed  
+- Evaluation consistency  
+- Quality of shortlisted candidates  
+
+The system shows strong potential as an intelligent decision-support tool for modern HR operations.
 
 ---
 
-## Technologies Used
-- **Python** – Core application development  
-- **Generative AI / LLMs** – Resume analysis and evaluation  
-- **File Processing Libraries** – Resume parsing and preprocessing  
-- **Automation Logic** – Workflow execution and classification  
-- **Development Environment** – Visual Studio / VS Code  
+## 🔮 Future Scope
+- Integration with Applicant Tracking Systems (ATS)  
+- Role-specific scoring and customization  
+- Email and calendar-based interview scheduling  
+- Analytics dashboard for recruitment insights  
 
 ---
 
-## Project Structure
+## 🏁 Conclusion
+**Resume Segregator** demonstrates the practical application of **Generative AI in HR automation**, providing an efficient, scalable, and intelligent solution for resume screening and candidate prioritization in high-volume hiring environments.
+
